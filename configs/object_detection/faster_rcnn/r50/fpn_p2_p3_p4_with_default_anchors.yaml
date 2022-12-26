@@ -1,0 +1,9 @@
+_BASE_: "../R50.yaml"
+MODEL:
+  # DEVICE: "cpu"
+  ANCHOR_GENERATOR:
+    SIZES: [[16, 32], [32, 64], [64, 128]]
+  RPN:
+    IN_FEATURES: ["p2", "p3", "p4"]
+SOLVER:
+  IMS_PER_BATCH: 4

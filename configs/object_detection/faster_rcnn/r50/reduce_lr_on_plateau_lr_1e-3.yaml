@@ -1,0 +1,5 @@
+_BASE_: "../R50.yaml"
+SOLVER:
+  LR_SCHEDULER_NAME: "ReduceLROnPlateau"
+  BASE_LR: 0.001
+  MAX_ITER: 15000

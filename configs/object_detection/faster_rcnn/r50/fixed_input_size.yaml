@@ -1,0 +1,3 @@
+_BASE_: "../R50.yaml"
+INPUT:
+  MIN_SIZE_TRAIN: (1080, 1080)

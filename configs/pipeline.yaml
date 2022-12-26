@@ -1,0 +1,13 @@
+TRACKER:
+  OBJECT_DETECTOR:
+    CONFIG: "configs/object_detection/faster_rcnn/r50/r50_high_res.yaml"
+    WEIGHTS: "models/object_detection/faster_rcnn/r50_high_res_28-08-2022_01-09/model_0017499.pth"
+  ACTIVE_TRACKS_NMS_THRESH: 0.8
+NUMBER_DETECTOR:
+  WEIGHTS: "models/number_detection/model_00004.pth"
+  SCORE_THRESH: 0.8
+  DEVICE: "cuda:0"
+TEAM_DETECTOR:
+  WEIGHTS: "models/team_detection/best_weights.pth"
+  SCORE_THRESH: 0.8
+  DEVICE: "cuda:0"

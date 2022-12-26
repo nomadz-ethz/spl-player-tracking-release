@@ -1,0 +1,4 @@
+_BASE_: "../R50.yaml"
+SOLVER:
+  LR_SCHEDULER_NAME: "WarmupCosineLR"
+  BASE_LR: 0.001
